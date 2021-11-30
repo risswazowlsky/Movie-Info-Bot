@@ -11,10 +11,17 @@ A simple movie information finder telegram bot
 
 ---
 
-## Credits
+## Commands
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Movie Info API](https://api.sumanjay.cf/watch/)
+```
+start - For start bot
+info - For movie information
+```
+
+---
+
+## API
+
+https://api.sumanjay.cf/watch/
 
 ---
