@@ -4,17 +4,18 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from .info import get_movie
 
-START_TEXT = """Hello {}
-I am a movie information finder bot.
+START_TEXT = """😁 Hallo{}
+📢 Kamu ingin mencari film?📺 Saya adalah bot untuk mencari Film dengan mudah
 
-> `I can find information of all movies.`
+📌 Tinggal ketik nama film yang ingin kamu Tonton & Download 🎬
+> `✔️ NONTON FILM & STREAMING GRATIS CUMAN DISINI ✔️.`
 
-Made by @FayasNoushad"""
+👉 Made by @Rafens"""
 
 JOIN_BUTTONS = [
     InlineKeyboardButton(
-        text='⚙ Join Updates Channel ⚙',
-        url='https://telegram.me/FayasNoushad'
+        text='🎭 JOIN GROUP KAMI',
+        url='https://t.me/CariKenalanBebas'
     )
 ]
 
