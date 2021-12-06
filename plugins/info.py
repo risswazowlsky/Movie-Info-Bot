@@ -65,7 +65,7 @@ async def get_movie(bot, update, name):
             pass
     keyboard.append(JOIN_BUTTONS)
     await update.reply_text(
-        text="Select required option",
+        text="✔️ SILAKAN PILIH FILM DI BAWAH ✔️",
         reply_markup=InlineKeyboardMarkup(keyboard),
         disable_web_page_preview=True,
         quote=True
